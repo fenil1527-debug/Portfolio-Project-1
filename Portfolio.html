@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenil's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="mycss.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Fenil's RESUME</a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#qual">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="pfp"><!--Profile picture/my picture-->
+            <img src="fenil.jpg" alt="Fenil Developer">
+        </div>
+        <div class="homeIntro"><!--My small sweet intro -->
+            <h1>Hello , I'm <span>Fenil patel</span></h1>
+            <h3 class="homeBio">I'm a <span></span></h3>
+            <p>Hi there! I'm a developer who's always curious and excited to learn. Right now, I'm exploring Java, Python, and web
+            development, picking up new skills as I go. I really enjoy turning ideas into real projects and figuring things out as I
+            build.
+            
+            What really excites me is automation and robotics. There's something incredible about teaching machines to solve
+            problems and make life simpler. I love using code to create smart systems that can think for themselves. I'm always
+            looking for fun projects to challenge myself and get better at what I do.
+            </p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+    <!--Projects section where i add infintie projects-->
+    <section class="projects" id="projects">
+        <h3>Projects</h3>
+        <div class="grid">
+            <div class="card">
+                <a href="project1.html">
+                    <h4>Project 1</h4>
+                </a>
+                <p>Soon be deployed</p>
+                <a href="" class="view-btn"><!--here we add our project link-->
+                    <h1>View Project</h1>
+                </a>
+            </div>
+            <div class="card">
+                <a href="project2.html">
+                    <h4> project 2</h4>
+                </a>
+                <p>soon be deployed</p>
+                <a href="" class="view-btn"> <!--here we add our project link-->
+                    <h1>View Project</h1>
+                </a>
+            </div>
+            <div class="card">
+                <a href="">
+                    <h4>project 3</h4>
+                </a>
+                <p>soon be deployed</p>
+                <a href="" class="view-btn"><!--here we add our project link-->
+                    <h1>View Project</h1>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="qual"><!--Qualification section-->
+        <h3>Qualification</h3>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fa fa-graduation-cap"></i>
+                </div>
+                <div class="timeline-content">
+                    <h4>Scaler School Of Technology</h4>
+                    <p class="duration"><em>2025 - 2029</em></p>
+                    <p>Focused on enhancing programming skills, learning modern web technologies, and building practical
+                        projects for real-world applications.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fa fa-university"></i>
+                </div>
+                <div class="timeline-content">
+                    <h4>BITS Pilani - BSc. Computer Science</h4>
+                    <p class="duration"><em>2025 - 2029</em></p>
+                    <p>Gaining a strong foundation in computer science fundamentals, data structures, algorithms, and
+                        software development.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fa fa-university"></i>
+                </div>
+                <div class="timeline-content">
+                    <h4>IITM- BSc. Computer Science</h4>
+                    <p class="duration"><em>2025 - 2029</em></p>
+                    <p>Gaining a strong foundation in computer science
+                        and Gaining vast amount of kowledge and pursuing great career.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section -->
+    <!--here's where lies all my link to contact me with my email-->
+    <section class="contact" id="contact">
+        <h3>Connect with Me</h3>
+        <p style="text-align:center; font-size:1.6rem; margin-bottom:2rem">Feel free to reach out for collaborations,
+            projects, or just to say hello!
+        <p>
+
+        <div class="contact-container">
+            <div class="contact-form"><!--form to contact me-->
+                <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+
+        <div class="socials"><!--Social Links-->
+            <a href="https://www.linkedin.com/in/fenil-vekariya-7832aa360" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/fenil1527-debug" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://x.com/VekariyaFe87675" target="_blank" aria-label="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/fenil_15.27/" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
